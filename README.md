@@ -26,8 +26,8 @@ https://dashboard.ngrok.com/get-started/setup
 ## Usage
 
 ```
-$ git clone git@github.com:ssk9597/Docker-php-node-nginx-mysql.git
-$ cd Docker-php-node-nginx-mysql
+$ git clone git@github.com:ssk9597/Docker-php-node-nginx-mysql-ngrok.git
+$ cd Docker-php-node-nginx-mysql-ngrok
 $ make install
 ```
 
