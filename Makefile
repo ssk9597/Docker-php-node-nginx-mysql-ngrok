@@ -12,7 +12,6 @@ restart:
 # インストール時コマンド
 install:
 	cp .env.example .env
-	docker network create docker-line-spa
 	docker-compose up -d --build
 	docker-compose exec app composer install
 	docker-compose exec app cp .env.example .env
