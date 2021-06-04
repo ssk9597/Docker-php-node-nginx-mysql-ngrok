@@ -19,6 +19,7 @@ mysql:5.7
 ### ngrok
 
 こちらのサイトで authtoken を取得してください。
+
 https://dashboard.ngrok.com/get-started/setup
 
 そのトークンを、`.env`に入れてください。
