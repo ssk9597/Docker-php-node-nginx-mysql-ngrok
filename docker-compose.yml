@@ -44,3 +44,7 @@ services:
       NGROK_AUTH: ${NGROK_AUTH}
       NGROK_PROTOCOL: http
       NGROK_PORT: web:80
+
+networks:
+  default:
+    name: docker-line-spa
